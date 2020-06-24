@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1592912812 source:c:\users\rajeev yadav\desktop\job\day4\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<iterator>
+
