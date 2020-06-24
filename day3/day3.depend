@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592731172 source:c:\users\rajeev yadav\desktop\job\day3\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+
