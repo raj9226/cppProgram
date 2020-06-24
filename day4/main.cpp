@@ -104,33 +104,46 @@ int main()
 
 */
 
-//Problem 1:
-bool myComapartor(pair <string,int> p, pair <string,int> q)
-{
-   if(p.second==q.second)
-        return p.first < q.first;
-   return p.second <q.second ;
-}
+/*Problem 1:sliding window
+given an array of integer n find the largest of integer in subarray of size k
+*/
+#include<stack>
+#include<deque>
 int main()
 {
-    int x,y,salary;
-    string name;
-    cin>>x;
-    cin>>y;
-    pair<string,int> emp[1000];
-    for(int i=0;i<y;i++)
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)
     {
-        cin>>name>>salary;
-        emp[i].first=name;
-        emp[i].second=salary;
+        cin>>arr[i];
     }
-
-    sort(emp,emp+y,myComapartor);
-    for(auto i=0;i<y;i++)
-        if(emp[i].second>=x)
+    int k;
+    cin>>k;
+    deque<int>q(k);
+    int i=0;
+    for(;i<k;i++)
     {
-
-            cout<<emp[i].first<<" "<<emp[i].second<<endl;
+        while(!q.empty() && arr[i]>=arr[q.back()])
+        {
+            q.pop_back();
+        }
+        q.push_back(i);
     }
+    for(;i<n;i++)
+    {
+        cout<<arr[q.front()];
+        while((!q.empty() )&& (q.front()<=i-k) )
+        {
+         q.pop_front();
+        }
+        while(!q.empty() && arr[i]>=arr[q.back()])
+        {
+            q.pop_back();
+        }
+        q.push_back(i);
+    }
+    cout<<arr[q.front()];
+
     return 0;
 }
