@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593075640 source:c:\users\rajeev yadav\desktop\job\advancegcd\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+
