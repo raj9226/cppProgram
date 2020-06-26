@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593165405 source:c:\users\rajeev yadav\desktop\job\fibonacii of prime\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+
