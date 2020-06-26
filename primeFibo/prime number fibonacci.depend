@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1593166481 source:c:\users\rajeev yadav\desktop\job\prime number fibonacci\main.cpp
+	<iostream>
+	<cmath>
+
