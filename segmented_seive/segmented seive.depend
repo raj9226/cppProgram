@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593420750 source:c:\users\rajeev yadav\desktop\job\segmented seive\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+
