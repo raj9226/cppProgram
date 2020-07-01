@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1593597094 source:c:\users\rajeev yadav\desktop\job\distinct_query\main.cpp
+	<iostream>
+	<unordered_map>
+	<set>
+	<algorithm>
+	<string.h>
+	<algorithm>
+
