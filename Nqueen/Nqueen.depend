@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1593671149 source:c:\users\rajeev yadav\desktop\job\nqueen\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
