@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593763833 source:c:\users\rajeev yadav\desktop\job\aggresive_cow\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<algorithm>
+
