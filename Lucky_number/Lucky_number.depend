@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594119362 source:c:\users\rajeev yadav\desktop\job\lucky_number\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+
