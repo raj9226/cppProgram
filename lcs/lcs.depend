@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594278329 source:c:\users\rajeev yadav\desktop\job\lcs\main.cpp
+	<iostream>
+	<cstring>
+	<bits/stdc++.h>
+
