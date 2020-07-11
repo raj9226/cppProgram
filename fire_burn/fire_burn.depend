@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594455781 source:c:\users\rajeev yadav\desktop\job\fire_burn\main.cpp
+	<iostream>
+	<list>
+	<queue>
+
