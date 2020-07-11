@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1594452318 source:c:\users\rajeev yadav\desktop\job\graph_code\main.cpp
+	<iostream>
+	<list>
+	<bits/stdc++.h>
+	<map>
+	<string>
+
