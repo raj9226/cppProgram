@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594455799 source:c:\users\rajeev yadav\desktop\job\bfs\main.cpp
+	<iostream>
+	<list>
+	<queue>
+
